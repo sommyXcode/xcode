@@ -1,0 +1,578 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.Container {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.D1 {
+    display: inline-flex;
+}
+
+.logo img{
+    height: 7.5rem;
+    width: 6rem;
+    margin-top: -3rem;
+}
+
+.a-tag ul{
+display: inline-flex;
+gap: 4rem;
+padding-left: 6rem;
+margin-left: 35rem;
+}
+
+.a-tag ul li {
+    color: rgb(26, 5, 5);
+    padding: 1rem; 
+}
+
+.a-tag ul li:hover{
+    background-color: bisque;
+    color: red;
+}
+
+
+header {
+    background-color: #ccc;
+    height: 5rem;
+    width: 98.3%; 
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+header {
+    width: 91%;
+}
+.a-tag {
+    display: none;
+}
+
+
+.menu {
+    display: block;
+    position: absolute;
+    margin-left: 17rem; 
+    margin-top: -4rem;
+}
+
+}
+
+/* ------------------end of header -------------------------------- */
+.background {
+    height: 40rem;
+    width: 100%;
+    background-image: url(office.jpg);
+}
+
+
+.unvail {
+    height: 40rem;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.8);;
+    position: absolute;
+}
+
+.text {
+    margin-left: 14rem;
+    margin-top: 12rem;
+}
+
+
+.text h2 {
+    color: white;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text h4 {
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+
+.button1 {
+    height: 3rem;
+    width: 9rem;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    font-size: 17px;
+    border-radius: 5%;
+}
+
+
+.button1 a {
+    color: black;
+}
+
+
+.button2 {
+    height: 3rem;
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 5%;
+    font-size: 17px;
+    margin-left: 3rem;
+    background-color: navy
+}
+
+
+.button2 a {
+    color: white;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+.background {
+    height: 20rem;
+    width: 100%;
+}
+
+
+.unvail {
+    height: 20rem;
+    width: 100%;
+}
+
+
+.text {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    }
+
+
+.text h2{
+    font-size: 25px;
+}
+
+.text h4 {
+    font-size: 15px;
+}
+
+.button1 {
+    height: 1.5rem;
+    width: 6rem;
+    font-size: 10px;
+    margin-top: 1rem;
+}
+
+
+.button2 {
+    height: 1.5rem;
+    width: 6rem;
+    font-size: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+}
+
+
+/* ------------------end of background---------------------------  */
+
+.minor {
+    padding-left: 14rem;
+    padding-top: 2rem;
+}
+
+.minor section{
+    display: inline-flex;
+    background-color: aliceblue;
+    margin-top: -4rem;
+    z-index: 600;
+    position: absolute;
+    width: 73%;
+    height: 24rem;
+}
+
+
+.minor1 {
+    height: 20rem;
+    width: 25rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+.unvail2 {
+    height: 16rem;
+    width: 25rem;
+    position:absolute;
+    background-color: rgba(5, 70, 192, 0.619);
+    margin-top: -16rem;
+}
+
+   
+.image{
+    height: 20rem;
+    width: 100%;
+}
+
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.text1 {
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+
+.text1 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+
+.text1 p{
+    margin-top: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+
+.minor1 button {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 16.5px;
+    border-radius: 10%;
+    background-color: navy;
+}
+
+
+.minor1 button a {
+    color: white;
+}
+
+
+.unvail3 {
+    height: 3rem;
+    width: 25rem;
+    position:absolute;
+    background-color: rgba(5, 70, 192, 0.619);
+    margin-top: -3rem;
+    
+}
+
+.text2 {
+text-align: center;
+margin-top: 1rem;
+font-size: 18px;
+color: white;
+}
+
+
+@media screen and (max-width:768px) {
+.minor section {
+    background-color:aliceblue;
+    display:grid;
+    height: 62rem;
+    width: 90%;
+}
+
+
+.minor {
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+
+.minor1{
+    margin-left: 1.5rem;
+    margin-top: 2rem;  
+    margin-top: 1rem;
+}
+
+
+.image{
+    height: 18rem;
+    width: 70%;
+}
+
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.unvail2 {
+    height: 16rem;
+    width: 17.5rem;
+}
+
+
+.minor1 button {
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 8rem;
+    font-size: 14px;
+}
+
+
+.text1 p{
+    margin-top: 0.5rem;
+}
+
+
+.unvail3 {
+    width: 17.5rem;
+}
+
+}
+
+/* -------------------------end of minor--------------------------------- */
+
+.minor-container {
+    padding-top: 23rem;
+    padding-left: 14rem;
+}
+
+
+
+.minor-container section {
+    display: inline-flex;
+    height: 25rem;
+    width: 30rem;
+}
+
+
+.minor-container section img {
+    height: 33.1rem;
+    width: 50rem;
+    margin-left: 6rem;
+    position: absolute;
+}
+
+
+.text-doc {
+font-display: absolute;
+}
+.text-doc h3{
+font-size: 30px;
+}
+
+
+.text-doc article {
+    font-size: 24px;
+}
+
+
+.minor-container button {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 10rem;
+    font-size: 16.5px;
+    background-color: navy;
+}
+
+
+.minor-container button a {
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+.minor-container section {
+    display: inline-grid;
+    margin-top: 36rem;
+    margin-left: -12rem;
+    height: 20rem;
+    width: 19rem;
+    }
+
+.text-doc h3{
+    font-size: 25px;
+    }
+
+.text-doc article {
+    font-size: 20px;
+    }
+
+.minor-container section img {
+    height: 15rem;
+    width: 20rem;
+    margin-left: -1rem;
+    margin-top: 2rem;
+    position: absolute;
+    }
+
+}
+
+/* -------------------end of minor-------------------------------------- */
+
+footer {
+    height: 60rem;
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 10rem;
+}
+
+footer h2 {
+    text-align: center;
+    color: navy;
+    font-size: 30px;
+    padding-top: 5rem;
+}
+
+
+.parent {
+    margin-top: 2rem;
+    margin-left: 14rem;
+}
+
+
+.parent section {
+    display: inline-flex;
+}
+
+
+.box1{
+    background-color: navy;
+    height: 20rem;
+    width: 21rem;
+    margin-top: 3rem;
+}
+
+
+.box {
+    background-color: white;
+    height: 20rem;
+    width: 21rem;
+    gap: 3rem;
+    margin-left: .7rem;
+    margin-top: 3rem;
+}
+
+
+
+.image4 img {
+    height: 4rem;
+    width: 4rem;
+}
+
+
+.text5 {
+    margin-left: 1rem;
+}
+
+.text5 h3 {
+    font-size: 30px;
+    color: navy;
+    margin-top: 20px;
+}
+
+
+.text5 p {
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+}
+
+
+.text6 {
+    margin-left: 1rem;
+}
+
+.text6 h3 {
+    font-size: 27px;
+    color: white;  
+    margin-top: 20px;
+}
+
+.text6 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+.box2 {
+    background-color: white;
+    height: 20rem;
+    width: 21rem;
+    gap: 3rem;
+    margin-left: .7rem;
+    margin-top: 3rem;
+}
+
+
+.image7 img {
+    height: 4rem;
+    width: 4rem;
+}
+
+
+.text7 {
+    margin-left: 1rem;
+}
+
+.text7 h3 {
+    font-size: 30px;
+    color: navy;
+    margin-top: 20px;
+}
+
+
+.text7 p {
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+}
+
+
+
+@media screen and (max-width:768px) {
+footer {
+    height: 190rem;
+    width: 90%;
+    margin-top: 35rem;
+    margin-left: 1rem;
+    }
+    
+footer h2 {
+padding-top: 1rem;
+font-size: 25px;
+    }
+
+.parent section {
+    display: grid;
+    margin-left: -13.5rem;
+    }
+
+.box1{
+    height: 20rem;
+    width: 18rem;
+    }
+
+
+.box {
+    height: 20rem;
+    width: 18rem;
+    }
+
+.box2 {
+    height: 20rem;
+    width: 18rem;  
+}
+}
